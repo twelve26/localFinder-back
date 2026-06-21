@@ -1,0 +1,21 @@
+{
+  "name": "localfinder-backend",
+  "version": "1.0.0",
+  "description": "Pseudo-fake backend for the LocalFinder Android/KMP app.",
+  "private": true,
+  "packageManager": "pnpm@11.5.3",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.35.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {}
+}
